@@ -1,1 +1,1 @@
-# Simulin-for-vehicle
+# DC MOTOR SIMULATION USING SIMULINK MATLAB
