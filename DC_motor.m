@@ -1,6 +1,6 @@
 %%%% DC MOTOR SIMULATION USING SIMULINK MATLAB
 clc;close all;clear all; % windows & workspace reset 
-%% Caracteristic
+%% Parameters
 Amplitude = 240; % ARMATURE VOLTAGE INPUT 240 V
 amplitude = 150; % FIELD WINDING INPUT 150 V
 %% simulation
