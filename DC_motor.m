@@ -4,7 +4,7 @@ clc;close all;clear all; % windows & workspace reset
 Amplitude = 240; % ARMATURE VOLTAGE INPUT 240 V
 amplitude = 150; % FIELD WINDING INPUT 150 V
 %% simulation
-tsim = 0.3; % simulation time
+tsim = 0.6; % simulation time
 [t,x,y] = sim('DC_MOTOR',tsim); % simulation 
 V_in = y(:,1); % ARMATURE VOLTAGE (V)
 w = y(:,2);    % Speed wm (rad/s)
